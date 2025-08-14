@@ -7,6 +7,6 @@
   "plugins": ["@typescript-eslint"],
   "extends": ["standard-with-typescript"],
   "rules": {
-    // regras customizadas, se necessário
+    "@typescript-eslint/strict-boolean-expressions": "off",    
   }
 }
