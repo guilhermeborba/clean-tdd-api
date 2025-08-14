@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint . --ext .ts,.js",
-    "test-staged": "jest"
+    "test-staged": "jest --passWithNoTests",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
